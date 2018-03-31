@@ -1,4 +1,6 @@
 package edu.gatech;
 
-public class EventHandler {
+public interface EventHandler {
+    void handle(Event event);
+
 }
